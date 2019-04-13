@@ -1,6 +1,5 @@
 package Test;
 
-import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import Pages.LoginPage;
@@ -19,5 +18,6 @@ public class LoginTest extends BaseTest {
 	loginPage.enterCredentials("Marco07", "Timaius2688929");
 	loginPage.clickLoginButton();			
 	}
+	
 	
 }
